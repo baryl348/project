@@ -1,0 +1,42 @@
+.wrapper {
+  position: absolute;
+  background-color: #ebf2fb;
+  width: 100%;
+  height: calc(100% - 60px);
+  left: 0px;
+  top: 60px;
+}
+
+.button_save {
+  position: absolute;
+  top: 40px;
+  right: 22px;
+  transform: translate(0, -50%);
+}
+
+.h1 {
+  margin-left: 22px;
+}
+
+.panel {
+  /*flex: 0 0 100em;*/
+  background-color: #ffffff;
+  margin: 0 22px 0 22px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  height: 288px;
+  min-width: 500px;
+}
+
+.panel_text {
+  width: 158px;
+  height: 36px;
+  margin-bottom: 12px;
+  padding-right: 103px;
+}
+
+.panel_content {
+  padding-top: 24px;
+  margin: 0 24px 0 24px;
+  min-width: 450px;
+}
